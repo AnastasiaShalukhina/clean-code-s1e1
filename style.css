@@ -1,34 +1,35 @@
 /* Basic Style */
-body {
+/* 3.4 change for .body */
+body { 
   background-color: #f8f8f8;
   color: #333;
   font-family: "Lato", sans-serif;
 }
 
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.header img {
   width: 100%;
 }
 
-.aaa .more_inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
   
-  .aaa {
+  .header {
     text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,25 +41,25 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.input-add-wrapper {
   display: flex;
 }
-
+/*  */
 ul {
   margin: 0;
   padding: 0px;
 }
-
+/*  */
 li, 
 h3 {
   list-style: none;
 }
-
+/* button - .button */
 input,
 button{
   outline: none;
 }
-
+/* button - .button */
 button {
   background: none;
   border: 0px;
@@ -68,11 +69,12 @@ button {
   font-family: "Lato", sans-serif;
   cursor: pointer;
 }
-
+/* button - .button */
 button:hover {
   color: #3a3a3a;
 }
 /* Heading */
+/*  */
 h3,
 label[for="new-task"] {
   color: #333;
@@ -83,7 +85,7 @@ label[for="new-task"] {
   margin: 0;
   text-transform: uppercase;
 }
-
+/*  */
 input[type="text"] {
   margin: 0;
   font-size: 18px;
@@ -96,22 +98,24 @@ input[type="text"] {
   font-family: "Lato", sans-serif;
   color: #888;
 }
-
+/*  */
 input[type="text"]:focus {
   color: #333;
 }
 
 /* New Task */
+/*  */
 label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-
+/*  */
 input#new-task {
   width: 318px;
 }
 
 /* Task list */
+/*  */
 li {
   overflow: hidden;
   padding: 20px 0;
@@ -121,32 +125,32 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-
+/*  */
 li > * {
   vertical-align: middle;
 }
-
+/*  */
 li > input[type="checkbox"] {
   margin: 0 10px;
 }
-
+/*  */
 li > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-
+/*  */
 li >    input[type="text"] {
   width: 226px;
 }
-
+/* button - .button_delete */
 button.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-
+/* button - .button_delete */
 button.delete img:hover {
   transform: rotateZ(0);
 }
