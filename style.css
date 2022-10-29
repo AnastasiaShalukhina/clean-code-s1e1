@@ -13,7 +13,7 @@
   text-align: right;
 }
 
-.header img {
+.matrix-image {
   width: 100%;
 }
 
@@ -142,20 +142,20 @@
 .item > .input_text {
   width: 226px;
 }
-/*  */
-.button_delete img {
+
+.img-delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-/*  */
-.button_delete img:hover {
+
+.img-delete:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-/*  */
-ul#completed-tasks label {
+
+.section-complete .label {
   text-decoration: line-through; 
   color: #888;
 }
@@ -165,12 +165,12 @@ ul#completed-tasks label {
 .section-content .input_text {
   display: none;
 }
-/*  */
-ul li.item_edited input[type="text"] {
+
+.item_edited .input_text {
   display: inline-block;
   width: 224px;
 }
 /*  */
-ul li.item_edited label {
+.item_edited .label {
   display: none;
 }
