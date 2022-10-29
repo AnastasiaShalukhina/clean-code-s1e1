@@ -35,6 +35,10 @@
   margin: 0 auto 0;
 }
 
+.section-add {
+  padding-top: 10px;
+}
+
 .task {
   width: 56%;
   display: inline-block;
