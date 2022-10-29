@@ -14,27 +14,27 @@
     </div>
     <div class="main">
       <p id="section-add__title">
-        <label for="new-task" class="section-add__label">Add Item</label>
+        <label for="new-task" class="label section-add__label">Add Item</label>
         <div class="input-add-wrapper">
-          <input id="new-task" class="task" type="text">
+          <input id="new-task" class="input input_text task" type="text">
           <button class="button button_add">Add</button>
         </div>
       </p>
       <h3 class="section-incomplete__title">Todo</h3>
       <ul id="incomplete-tasks" class="section-content section-incomplete">
         <li class="item section-incomplete__item">
-          <input type="checkbox">
-          <label class="task">Pay Bills</label>
-          <input type="text" class="task">
+          <input type="checkbox" class="input input_checkbox">
+          <label class="label task">Pay Bills</label>
+          <input type="text" class="input input_text task">
           <button class="button button_edit">Edit</button>
           <button class="button button_delete">
             <img src="./remove.svg">
           </button>
         </li>
-        <li class="item section-incomplete__item edit-mode">
-          <input type="checkbox">
-          <label class="task">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task">
+        <li class="item section-incomplete__item item_edited">
+          <input type="checkbox" class="input input_checkbox">
+          <label class="label task">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="input input_text task">
           <button class="button button_edit">Save</button>
           <button class="button button_delete">
             <img src="./remove.svg">
@@ -44,9 +44,9 @@
       <h3 class="section-complete__title">Completed</h3>
       <ul id="completed-tasks" class="section-content">
         <li class="item section-complete__item">
-          <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
+          <input type="checkbox" class="input input_checkbox" checked>
+          <label class="label task">See the Doctor</label>
+          <input type="text" class="input input_text task">
           <button class="button button_edit">Edit</button>
           <button class="button button_delete">
             <img src="./remove.svg">
